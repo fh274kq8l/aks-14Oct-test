@@ -11,8 +11,8 @@ resource "random_pet" "azurerm_kubernetes_cluster_dns_prefix" {
 }
 
 data "azurerm_user_assigned_identity" "example" {
-  name                = "aks-basic-tf-dev"      # Replace with the name of your existing user-assigned identity
-  resource_group_name = "aks-basic-tf-identity" # Replace with the resource group name where the identity is located
+  name                = "aks-14Oct-test-dev"      # Replace with the name of your existing user-assigned identity
+  resource_group_name = "aks-14Oct-test-identity" # Replace with the resource group name where the identity is located
 }
 
 resource "tls_private_key" "main" {
