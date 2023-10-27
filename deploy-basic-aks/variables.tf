@@ -23,5 +23,5 @@ variable "username" {
 variable "acr_name" {
   type = string
   description = "ACR name"
-  default = "acr0510"
+  default = "acr2710"
 }
